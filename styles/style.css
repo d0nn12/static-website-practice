@@ -1,0 +1,35 @@
+body {
+  background-color: #f8e8a6;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+img {
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.004),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.01),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.018),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.028),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.042),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+.container {
+  color: #008001;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.container a:visited {
+  text-decoration: none;
+  color: #008001;
+}
+.container a {
+  padding: 10px;
+}
